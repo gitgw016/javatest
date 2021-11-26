@@ -1,0 +1,25 @@
+package application;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.StackPane;
+
+public class RootController implements Initializable {
+	
+	@FXML private BorderPane mainWrap;
+	@FXML private Button btnNext;
+	
+	@Override
+	public void initialize(URL location, ResourceBundle resources) {
+		btnNext.setOnAction(event->{
+			// stackPane에 Next 화면 추가
+			StackPane root = (StackPane) btnNext.getScene().getRoot();
+		});
+	}
+
+}

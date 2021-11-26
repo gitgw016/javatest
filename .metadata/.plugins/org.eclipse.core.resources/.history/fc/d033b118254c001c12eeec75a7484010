@@ -1,0 +1,18 @@
+VBox{
+	-fx-border-color:black;
+	-fx-pref-width:100px;
+	-fx-pref-height:100px;
+}
+
+#vbox1{
+	-fx-background-color:black;
+	-fx-background-radius:20;
+	-fx-border-radius:20;
+}
+
+#vbox2{
+	-fx-background-color:rgba(255,128,128,0.5);
+	-fx-background-color:linear-gradient(to bottom,#000000,#ff9999);
+	-fx-background-color:linear-gradient(to top,#000000,#99ff99);
+	-fx-background-color:linear-gradient(to left,#000000,#9999ff);
+}

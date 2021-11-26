@@ -1,0 +1,6 @@
+.lblText{
+	-fx-font-size:35; 							/* 글꼴 크기 px 단위 */
+	-fx-font-family:"굴림,gulim,Arial Black"; 	/* 글꼴 지정 */
+	-fx-font-weight:bold;						/* 굵기 normal, bold */
+	-fx-text-fill:red;
+}

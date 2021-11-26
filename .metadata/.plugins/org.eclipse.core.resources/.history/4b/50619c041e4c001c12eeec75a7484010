@@ -1,0 +1,15 @@
+TextField{
+	-fx-background-color:skyblue;
+}
+/* TextField가 focus를 얻은 상태 */
+TextField:focused{
+	-fx-background-color:pink;
+	-fx-border-color:skyblue;
+	-fx-text-fill:white;
+	-fx-cursor:hand;
+}
+
+/*
+	해당 요소에 마우스가 올라오면 변경 되는 css
+	마우스가 해당 요소에서 사라지면 적용 해제
+*/

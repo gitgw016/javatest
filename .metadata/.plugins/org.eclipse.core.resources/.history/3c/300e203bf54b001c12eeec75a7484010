@@ -1,0 +1,21 @@
+package application;
+// 학생 정보를 저장하는 Class
+// tableView와 binding 되는 Class
+public class StudentVO {
+	
+	private String name;
+	private int kor;
+	private int math;
+	private int eng;
+	
+	public StudentVO() {}
+	
+	public StudentVO(String name, int kor, int math, int eng) {
+		this.name = name;
+		this.kor = kor;
+		this.math = math;
+		this.eng = eng;
+	}
+	
+	
+}

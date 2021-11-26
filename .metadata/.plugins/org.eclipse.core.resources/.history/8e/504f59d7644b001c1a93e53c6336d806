@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="244.0" prefWidth="321.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="">
+   <children>
+      <TableView prefHeight="200.0" prefWidth="320.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="이름" />
+          <TableColumn prefWidth="75.0" text="국어" />
+            <TableColumn prefWidth="75.0" text="수학" />
+            <TableColumn prefWidth="75.0" text="영어" />
+        </columns>
+      </TableView>
+      <Button id="btnAdd" layoutX="85.0" layoutY="207.0" mnemonicParsing="false" text="추가" />
+      <Button id="btnGraph" layoutX="160.0" layoutY="207.0" mnemonicParsing="false" text="학생별 막대그래프" />
+   </children>
+</AnchorPane>

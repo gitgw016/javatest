@@ -1,0 +1,71 @@
+package server_chat;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.net.Socket;
+import java.util.Hashtable;
+
+// 연결된 client와 통신을 진행할 작업 Task
+public class ServerTask implements Runnable {
+	
+	Socket client;						// 현재 연결된 client의 연결 정보
+	Hashtable<String,PrintWriter> ht;	// 현재 연결된 모든 사용자의 정보
+	ServerController sc;				// display가 있는 controller
+	
+	PrintWriter pw;			// 연결된 client로 출력
+	BufferedReader br;		// 연결된 client에서 메세지 받기
+	
+	String nickName ;		// 현재 연결된 사용자의 nickName
+	
+	boolean isRun = true;	// receive Thread flag
+	
+	public ServerTask(Socket client, Hashtable<String,PrintWriter> ht, ServerController sc) {
+		this.client = client;
+		this.ht = ht;
+		this.sc = sc;
+		
+		try {
+			OutputStream os = client.getOutputStream();
+			OutputStreamWriter osw = new OutputStreamWriter(os);
+			BufferedWriter bw = new BufferedWriter(osw);
+			pw = new PrintWriter(bw,true);
+			
+			InputStream is = client.getInputStream();
+			InputStreamReader isr = new InputStreamReader(is);
+			br = new BufferedReader(isr);
+		} catch (IOException e) {
+			sc.displayText("Client? : "+e.getMessage());
+		}
+		
+	}
+
+	// receive - 데이터 전달 받기
+	@Override
+	public void run() {
+		System.out.println("Client에서 receive 시작");
+		while(isRun) {
+			try {
+				String receiveData = br.readLine();
+				if(receiveData == null) {
+					isRun = false;
+				}
+				System.out.println(receiveData);
+				
+				String[] data = receiveData.split("\\|");
+				//0|nickname		1|message
+				//[0,nickname]		[1|message]
+				String code = data[0];
+				String text = data[1];
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+}

@@ -1,0 +1,9 @@
+package a.object.toString;
+
+public class ToStringExam {
+
+	public static void main(String[] args) {
+		Object obj = new Object();
+	}
+
+}

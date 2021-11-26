@@ -1,0 +1,55 @@
+package fx_test;
+
+public class RootVO {
+	private String name;
+	private String korean;
+	private String math;
+	private String english;
+	
+	public RootVO() {}
+	
+	public RootVO(String name, String korean, String math, String english) {
+		this.name = name;
+		this.korean = korean;
+		this.math = math;
+		this.english = english;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getKorean() {
+		return korean;
+	}
+
+	public void setKorean(String korean) {
+		this.korean = korean;
+	}
+
+	public String getMath() {
+		return math;
+	}
+
+	public void setMath(String math) {
+		this.math = math;
+	}
+
+	public String getEnglish() {
+		return english;
+	}
+
+	public void setEnglish(String english) {
+		this.english = english;
+	}
+
+	@Override
+	public String toString() {
+		return "RootVO [name=" + name + ", korean=" + korean + ", math=" + math + ", english=" + english + "]";
+	}
+	
+}

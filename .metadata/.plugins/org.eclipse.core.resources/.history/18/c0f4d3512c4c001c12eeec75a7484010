@@ -1,0 +1,9 @@
+.lblText{
+	-fx-font-size:35; 							/* 글꼴 크기 px 단위 */
+	-fx-font-family:"Nanum Pen Script, cursive"; 	/* 글꼴 지정 */
+	-fx-font-weight:bold;						/* 굵기 normal, bold */
+	-fx-text-fill:red;
+	-fx-text-fill:linear-gradient(to top, pink, red);
+	-fx-text-fill:linear-gradient(to right, pink, skyblue);
+	-fx-text-fill:radial-gradient(center 50% 50%, radius 50%, red, blue);
+}

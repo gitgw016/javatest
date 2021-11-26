@@ -1,0 +1,10 @@
+VBox{
+	-fx-border-color:black;
+	-fx-pref-width:100px;
+	-fx-pref-height:100px;
+}
+
+#box1{
+	-fx-background-color:black;
+	-fx-background-radius:20;
+}

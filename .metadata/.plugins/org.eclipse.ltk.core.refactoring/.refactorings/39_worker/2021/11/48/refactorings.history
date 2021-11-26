@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;application&apos; to &apos;w1_runlater&apos;&#x0D;&#x0A;- Original project: &apos;39_worker&apos;&#x0D;&#x0A;- Original element: &apos;39_worker/src/application&apos;&#x0D;&#x0A;- Renamed element: &apos;39_worker/src/w1_runlater&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;application&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;application" name="w1_runlater" qualified="false" references="true" stamp="1637651743638" textual="false" version="1.0"/>
+</session>

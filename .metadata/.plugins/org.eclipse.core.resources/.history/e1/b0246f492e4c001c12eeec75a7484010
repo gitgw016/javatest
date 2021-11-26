@@ -1,0 +1,19 @@
+package w1_runlater;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
+
+public class RootController implements Initializable {
+	
+	@FXML private Label lblTime;
+	
+	@Override
+	public void initialize(URL location, ResourceBundle resources) {
+		
+	}
+
+}

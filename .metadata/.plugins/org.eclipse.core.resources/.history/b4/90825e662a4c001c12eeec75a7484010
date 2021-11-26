@@ -1,0 +1,3 @@
+.lblText{
+	-fx-font-size:35; /* 글꼴 크기 px 단위 */
+}

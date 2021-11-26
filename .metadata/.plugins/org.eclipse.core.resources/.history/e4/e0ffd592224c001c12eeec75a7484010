@@ -1,0 +1,26 @@
+VBox{
+	-fx-border-width:1;
+	-fx-border-color:black;
+	-fx-pref-width:100px;
+	-fx-pref-height:100px;
+}
+
+#vbox1{
+	-fx-border-color:red;
+	/*				  상 우 하 좌 */
+	-fx-border-width:1 2 3 5;
+}
+
+#vbox2{
+	-fx-border-color:rgba(255,128,128,0.5);
+	/*				상하,좌우 */
+	-fx-border-width:1 5;
+	-fx-background-color:yellow;
+	-fx-border-radius:50;
+	-fx-background-radius:50;
+}
+
+#vbox3{
+	-fx-border-insets:0,10,20;
+	-fx-border-color:red, green white green white, blue red;
+}

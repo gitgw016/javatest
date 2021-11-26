@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=14_interface/src&lt;a.base{RemoteControl.java[RemoteControl" modifiers="513" timestamp="1634697193357"/>
+<typeInfo handle="=14_interface/src&lt;d.cooperation{DatabaceAccessObject.java[DatabaceAccessObject" modifiers="513" timestamp="1634707083494"/>
+<typeInfo handle="=23_database/src&lt;mysql.dao{BookDAO.java[BookDAO" modifiers="513" timestamp="1636437851789"/>
+<typeInfo handle="=24_database_practice/src&lt;dao{AccountDAO.java[AccountDAO" modifiers="513" timestamp="1636506423713"/>
+<typeInfo handle="=24_database_practice/src&lt;dao{MemberDAO.java[MemberDAO" modifiers="513" timestamp="1636610516073"/>
+<typeInfo handle="=26_thread/C:\/Program Files\/Java\/jre1.8.0_311\/lib\/rt.jar=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/8\/docs\/api\/=/&lt;java.lang(Thread.class[Thread" modifiers="33" timestamp="1634688515546"/>
+<typeInfo handle="=31_event_handler/C:\/Program Files\/Java\/jre1.8.0_311\/lib\/rt.jar=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/8\/docs\/api\/=/&lt;javax.naming.spi(InitialContextFactory.class[InitialContextFactory" modifiers="1537" timestamp="1634688515546"/>
+<typeInfo handle="=chat_server/C:\/Program Files\/Java\/jre1.8.0_311\/lib\/rt.jar=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/8\/docs\/api\/=/&lt;java.lang(Runnable.class[Runnable" modifiers="1537" timestamp="1634688515546"/>
+<typeInfo handle="=31_event_handler/C:\/Program Files\/Java\/jre1.8.0_311\/lib\/ext\/jfxrt.jar=/javadoc_location=/http:\/\/docs.oracle.com\/javase\/8\/javafx\/api\/=/&lt;javafx.fxml(Initializable.class[Initializable" modifiers="1537" timestamp="1634688514002"/>
+</typeInfoHistroy>

@@ -1,0 +1,15 @@
+VBox{
+	-fx-border-color:black;
+	-fx-pref-width:100px;
+	-fx-pref-height:100px;
+}
+
+#vbox1{
+	-fx-background-color:black;
+	-fx-background-radius:20;
+	-fx-border-radius:20;
+}
+
+#vbox2{
+	-fx-background-color:rgba(255,128,128,0.5);
+}

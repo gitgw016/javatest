@@ -1,0 +1,29 @@
+package nov_last1;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
+
+public class RootController implements Initializable {
+
+	@FXML private Button btnLog, btnJoin;
+	@FXML private TextField txtID, txtPw;
+	
+	@Override
+	public void initialize(URL location, ResourceBundle resources) {
+		btnLog.setOnAction(event->{
+			String id = txtID.getText();
+			String pw = txtPw.getText();
+			System.out.println("id : "+id);
+			System.out.println("pw : "+pw);
+			
+		});
+		
+		
+	}
+
+}

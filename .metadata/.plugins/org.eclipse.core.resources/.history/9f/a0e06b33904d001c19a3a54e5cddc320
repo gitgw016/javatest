@@ -1,0 +1,16 @@
+package client_chat;
+
+import javafx.application.Application;
+import javafx.stage.Stage;
+
+public class ChatClientMain extends Application {
+
+	@Override
+	public void start(Stage primaryStage) {
+		
+	}
+
+	public static void main(String[] args) {
+		launch(args);
+	}
+}
